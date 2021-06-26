@@ -58,7 +58,7 @@ const CardActions: React.FC<FarmCardActionsProps> = ({ farm, ethereum, account }
     return isApproved ? (
       <StakeAction stakedBalance={stakedBalance} tokenBalance={tokenBalance} tokenName={lpName} pid={pid} depositFeeBP={depositFeeBP} decimal={decimal} />
     ) : (
-      <Button mt="8px" fullWidth disabled={requestedApproval} onClick={handleApprove}>
+      <Button mt="8px" style={{ background: '#8fa9d2' }} fullWidth disabled={requestedApproval} onClick={handleApprove}>
         {TranslateString(999, 'Approve Contract')}
       </Button>
     )
@@ -67,9 +67,9 @@ const CardActions: React.FC<FarmCardActionsProps> = ({ farm, ethereum, account }
   return (
     <Action>
       <Flex>
-        <Text bold textTransform="uppercase" color="secondary" fontSize="12px" pr="3px">
+        <Text bold textTransform="uppercase" color='#8fa9d2' fontSize="12px" pr="3px">
           {/* TODO: Is there a way to get a dynamic value here from useFarmFromSymbol? */}
-          SWAN
+          DMND
         </Text>
         <Text bold textTransform="uppercase" color="textSubtle" fontSize="12px">
           {TranslateString(999, 'Earned')}
@@ -77,14 +77,14 @@ const CardActions: React.FC<FarmCardActionsProps> = ({ farm, ethereum, account }
       </Flex>
       <HarvestAction earnings={earnings} pid={pid} decimal={decimal} />
       <Flex>
-        <Text bold textTransform="uppercase" color="secondary" fontSize="12px" pr="3px">
+        <Text bold textTransform="uppercase" color="#8fa9d2" fontSize="12px" pr="3px">
           {lpName}
         </Text>
         <Text bold textTransform="uppercase" color="textSubtle" fontSize="12px">
           {TranslateString(999, 'Staked')}
         </Text>
       </Flex>
-      {!account ? <UnlockButton mt="8px" fullWidth /> : renderApprovalOrStakeButton()}
+      {!account ? <UnlockButton mt="8px" style={{background:"#8fa9d2"}} fullWidth /> : renderApprovalOrStakeButton()}
     </Action>
   )
 }

@@ -25,7 +25,7 @@ const IconButtonWrapper = styled.div`
   }
 `
 
-const StakeAction: React.FC<FarmCardActionsProps> = ({ stakedBalance, tokenBalance, tokenName, pid, depositFeeBP, decimal}) => {
+const StakeAction: React.FC<FarmCardActionsProps> = ({ stakedBalance, tokenBalance, tokenName, pid, depositFeeBP, decimal }) => {
   const TranslateString = useI18n()
   const { onStake } = useStake(pid, decimal)
   const { onUnstake } = useUnstake(pid, decimal)
@@ -35,19 +35,19 @@ const StakeAction: React.FC<FarmCardActionsProps> = ({ stakedBalance, tokenBalan
 
   const [onPresentDeposit] = useModal(<DepositModal max={tokenBalance} onConfirm={onStake} tokenName={tokenName} depositFeeBP={depositFeeBP} />)
   const [onPresentWithdraw] = useModal(
-    <WithdrawModal max={stakedBalance} onConfirm={onUnstake} tokenName={tokenName} decimal={decimal}/>,
+    <WithdrawModal max={stakedBalance} onConfirm={onUnstake} tokenName={tokenName} decimal={decimal} />,
   )
 
   const renderStakingButtons = () => {
     return rawStakedBalance === 0 ? (
-      <Button onClick={onPresentDeposit}>{TranslateString(999, 'Stake')}</Button>
+      <Button style={{ background: '#8fa9d2' }} onClick={onPresentDeposit}>{TranslateString(999, 'Stake')}</Button>
     ) : (
       <IconButtonWrapper>
         <IconButton variant="tertiary" onClick={onPresentWithdraw} mr="6px">
-          <MinusIcon color="primary" />
+          <MinusIcon color="#8fa9d2" />
         </IconButton>
         <IconButton variant="tertiary" onClick={onPresentDeposit}>
-          <AddIcon color="primary" />
+          <AddIcon color="#8fa9d2" />
         </IconButton>
       </IconButtonWrapper>
     )

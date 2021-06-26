@@ -26,7 +26,7 @@ export const useFarms = (): Farm[] => {
 
 export const useFarmFromPid = (pid): Farm => {
   const farm = useSelector((state: State) => state.farms.data.find((f) => f.pid === pid))
-  console.log(farm.pid);
+  // console.log(farm.pid);
   return farm
 }
 
@@ -70,13 +70,13 @@ export const usePoolFromPid = (sousId): Pool => {
 // Prices
 
 export const usePriceBnbBusd = (): BigNumber => {
-  const pid = 1 // WMATIC-USDC LP
-  const farm = useFarmFromPid(pid)
+  const pid = 0; // WMATIC-USDC LP
+  const farm = useFarmFromPid(pid);
   return farm.tokenPriceVsQuote ? new BigNumber(farm.tokenPriceVsQuote) : ZERO
 }
 
 export const usePriceCakeBusd = (): BigNumber => {
-  const pid = 0; // SWAN-USDC LP
+  const pid = 1; // DMND-USDC LP
   const farm = useFarmFromPid(pid);
   return farm.tokenPriceVsQuote ? new BigNumber(farm.tokenPriceVsQuote) : ZERO;
 }

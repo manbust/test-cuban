@@ -32,7 +32,7 @@ z-index: 2;
     opacity: 0.2;
   background-image: url('/images/egg/2a.png');
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: top left;
   min-height: 376px;
   }
 `
@@ -86,10 +86,10 @@ const FarmedStakingCard = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(542, 'Farms & Staking')}
         </Heading>
-        <CardImage src="/images/egg/2.png" alt="cake logo" width={64} height={64} />
+        <CardImage src="/images/egg/2.png" alt="cake logo" width={120} height={100} />
         <Block>
           <Label>{TranslateString(544, 'EGG to Harvest')}</Label>
-          <CakeHarvestBalance earningsSum={earningsSum}/>
+          <CakeHarvestBalance earningsSum={earningsSum} />
           <Label>~${(eggPrice * earningsSum).toFixed(2)}</Label>
         </Block>
         <Block>
@@ -101,6 +101,7 @@ const FarmedStakingCard = () => {
           {account ? (
             <Button
               id="harvest-all"
+              style={{ background: '#8fa9d2' }}
               disabled={balancesWithValue.length <= 0 || pendingTx}
               onClick={harvestAllFarms}
               fullWidth

@@ -41,7 +41,7 @@ const config: MenuEntry[] = [
     href: '/voting',
   },
   {
-    label: 'Vaults (Coming Soon)',
+    label: '',
     icon: 'NftIcon',
     href: '/vaults',
   },
@@ -59,11 +59,11 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Featured on vFat',
-        href: 'https://vfat.tools/polygon/polyswan/',
+        href: 'https://vfat.tools/polygon/polydmnd/',
       },
       {
         label: 'Featured on Dapp Radar',
-        href: 'https://dappradar.com/polygon/defi/polyswan-finance',
+        href: 'https://dappradar.com/polygon/defi/polydmnd-finance',
       },
     ]
   },
@@ -77,11 +77,11 @@ const config: MenuEntry[] = [
       // },
       {
         label: "Github",
-        href: "https://github.com/swimming777/polyswan-frontend-main",
+        href: "https://github.com/swimming777/polydmnd-frontend-main",
       },
       {
         label: "Docs",
-        href: "https://polyswan.gitbook.io/polyswan/contracts/socials",
+        href: "https://polydmnd.gitbook.io/polydmnd/contracts/socials",
       },
       // {
       //   label: "Blog",

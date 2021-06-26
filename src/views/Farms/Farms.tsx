@@ -57,7 +57,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
         // if (!farm.tokenAmount || !farm.lpTotalInQuoteToken || !farm.lpTotalInQuoteToken) {
         //   return farm
         // }
-        const cakeRewardPerBlock = new BigNumber(farm.SwanPerBlock || 1).times(new BigNumber(farm.poolWeight)).div(new BigNumber(10).pow(18))
+        const cakeRewardPerBlock = new BigNumber(farm.DmndPerBlock || 1).times(new BigNumber(farm.poolWeight)).div(new BigNumber(10).pow(18))
         const cakeRewardPerYear = cakeRewardPerBlock.times(BLOCKS_PER_YEAR)
 
         let apy = cakePrice.times(cakeRewardPerYear);
@@ -95,16 +95,16 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
 
   return (
     <Page>
-      <Heading as="h1" size="lg" color="primary" mb="50px" style={{ textAlign: 'center' }}>
+      <Heading as="h1" size="lg" color="#e2effa" mb="50px" style={{ textAlign: 'center' }}>
         {
           tokenMode ?
-            TranslateString(10002, 'Stake tokens to earn SWAN')
+            TranslateString(10002, 'Stake tokens to earn DMND')
             :
-            TranslateString(320, 'Stake LP tokens to earn SWAN')
+            TranslateString(320, 'Stake LP tokens to earn DMND')
         }
       </Heading>
-      <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-        {TranslateString(10000, 'Deposit Fee will be used to buyback SWAN')}
+      <Heading as="h2" color="#e2effa" mb="50px" style={{ textAlign: 'center' }}>
+        {TranslateString(10000, 'Deposit Fee will be used to buyback DMND')}
       </Heading>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly} />
       <div>

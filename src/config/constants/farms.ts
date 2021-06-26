@@ -2,28 +2,43 @@ import contracts from './contracts'
 import { FarmConfig, QuoteToken } from './types'
 
 const farms: FarmConfig[] = [
-  {
-    pid: 0,
+  /* {
+    pid: 21,
     risk: 5,
-    lpSymbol: 'SWAN-USDC LP',
+    lpSymbol: 'DMND-POLYGAME LP',
     decimal: 18,
     lpAddresses: {
-      137: '0x007AFE958D0A26BE92E8325A3b6fCc733AB81e09',
+      137: '0x332f240e779e96a5b764903d97748996cb7ec60b',
     },
-    tokenSymbol: 'SWAN',
+    tokenSymbol: 'DMND',
     tokenAddresses: {
-      137: '0x692ca411d82DeB4A96F8f89E173171b4Af83Badf',
+      137: '0x5d5aA3e0636C413473218DDF1E5a1ceCe8679B16',
     },
-    quoteTokenSymbol: QuoteToken.USDC,
-    quoteTokenAdresses: contracts.usdc,
-  },
+    quoteTokenSymbol: QuoteToken.POLYGAME,
+    quoteTokenAdresses: contracts.polygame,
+  }, */
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'SWAN-WMATIC LP',
+    lpSymbol: 'DMND-USDC LP',
     decimal: 18,
     lpAddresses: {
-      137: '0x770Db375516C814D76F7D87F21Ca023EB9bb02A4',
+      137: '0xf0101ca9381e81cbd8ceea1151cdbb50ca312404',
+    },
+    tokenSymbol: 'DMND',
+    tokenAddresses: {
+      137: '0xc2423d5Df6269eA774A3856568D2C424e894514D',
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  }, 
+  {
+    pid: 2,
+    risk: 5,
+    lpSymbol: 'DMND-WMATIC LP',
+    decimal: 18,
+    lpAddresses: {
+      137: '0xd4ef16ccb63cbbd277420bd58c76e3a9ab0e2398',
     },
     tokenSymbol: 'WMATIC',
     tokenAddresses: {
@@ -32,9 +47,50 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,
   },
-
+  /* {
+    pid: 22,
+    risk: 5,
+    lpSymbol: 'POLYGAME-WMATIC LP',
+    decimal: 18,
+    lpAddresses: {0x6eb44a746a94b2b4a44f07983f8752f82867f56a
+    tokenAddresses: {
+      137: '0xe68361e0f58d0c1e38a5392dd7e0c6bb5cd66833',
+    },
+    quoteTokenSymbol: QuoteToken.WMATIC,
+    quoteTokenAdresses: contracts.wmatic,
+  },
+  /* {
+    pid: 17,
+    risk: 5,
+    lpSymbol: 'WETH-TITAN LP',
+    decimal: 18,
+    lpAddresses: {
+      137: '0xa28ade2f27b9554b01964fdce97ed643301411d9',
+    },
+    tokenSymbol: 'WETH',
+    tokenAddresses: {
+      137: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619',
+    },
+    quoteTokenSymbol: QuoteToken.TITAN,
+    quoteTokenAdresses: contracts.usdc,
+  },
   {
-    pid: 2,
+    pid: 18,
+    risk: 5,
+    lpSymbol: 'POLYGAME-USDC LP',
+    decimal: 18,
+    lpAddresses: {
+      137: '0x32a606b8b6945350c429c0ad4e6b932ed2b1794f',
+    },
+    tokenSymbol: 'POLYGAME',
+    tokenAddresses: {
+      137: '0xe68361E0f58D0C1e38A5392Dd7e0c6BB5CD66833',
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  }, */
+  {
+    pid: 0,
     risk: 5,
     lpSymbol: 'WMATIC-USDC LP',
     decimal: 18,
@@ -49,7 +105,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.usdc,
   },
 
-  {
+  /* {
     pid: 3,
     risk: 5,
     lpSymbol: 'WETH-USDC LP',
@@ -64,6 +120,9 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
   },
+
+
+
 
   // {
   //   pid: 1,
@@ -111,24 +170,55 @@ const farms: FarmConfig[] = [
   //   },
   //   quoteTokenSymbol: QuoteToken.BUSD,
   //   quoteTokenAdresses: contracts.busd,
-  // },
+  // }, */
   {
-    pid: 4,
+    pid: 3,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'SWAN',
+    lpSymbol: 'DMND',
     decimal: 18,
     lpAddresses: {
-      137: '0x007AFE958D0A26BE92E8325A3b6fCc733AB81e09'
+      137: '0xf0101ca9381e81cbd8ceea1151cdbb50ca312404'
     },
-    tokenSymbol: 'SWAN',
+    tokenSymbol: 'DMND',
     tokenAddresses: {
-      137: '0x692ca411d82DeB4A96F8f89E173171b4Af83Badf'
+      137: '0xc2423d5Df6269eA774A3856568D2C424e894514D'
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
   },
-
+  /* {
+    pid: 19,
+    risk: 1,
+    isTokenOnly: true,
+    lpSymbol: 'POLYGAME',
+    decimal: 18,
+    lpAddresses: {
+      137: '0x32a606b8b6945350c429c0ad4e6b932ed2b1794f'
+    },
+    tokenSymbol: 'POLYGAME',
+    tokenAddresses: {
+      137: '0xe68361E0f58D0C1e38A5392Dd7e0c6BB5CD66833'
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },
+  {
+    pid: 20,
+    risk: 1,
+    isTokenOnly: true,
+    lpSymbol: 'TITAN',
+    decimal: 18,
+    lpAddresses: {
+      137: '0x8af511761c74af631258d8ee6096679ff4838cde'
+    },
+    tokenSymbol: 'TITAN',
+    tokenAddresses: {
+      137: '0xaaa5b9e6c589642f98a1cda99b9d024b8407285a'
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  }, 
   {
     pid: 5,
     risk: 3,
@@ -252,7 +342,6 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
   },
-
   {
     pid: 12,
     risk: 1,
@@ -268,9 +357,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
-  },
-
-
+  }, */
 
 
 ]

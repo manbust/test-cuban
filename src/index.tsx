@@ -7,8 +7,8 @@ ReactDOM.render(
   <React.StrictMode>
     <Providers>
       <App />
-      <a href="https://rugdoc.io/project/polyswan/" target="_blank" rel="noreferrer">
-        <img src="https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png" alt="Rug Dr Approval Badge" style={{ position: 'fixed', bottom: 120, left: 0, height: '100px', width: 'auto', zIndex: 100000 }} />
+      <a href="https://rugdoc.io/project/polydmnd/" target="_blank" rel="noreferrer">
+        <img src="https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png" alt="Rug Dr Approval Badge" style={{ position: 'fixed', bottom: 0, right: 0, height: '110px', width: 'auto', zIndex: 100000 }} />
       </a>
     </Providers>
   </React.StrictMode>,

@@ -75,7 +75,7 @@
     {
       "data": {
         "stringId": 304,
-        "text": "Total CUBAN burned since launch"
+        "text": "Total DMND burned since launch"
       }
     },
     {
@@ -105,7 +105,7 @@
     {
       "data": {
         "stringId": 314,
-        "text": "NotTwitter"
+        "text": "Twitter"
       }
     },
     {
@@ -123,13 +123,13 @@
     {
       "data": {
         "stringId": 320,
-        "text": "Stake LP tokens to earn CUBAN"
+        "text": "Stake LP tokens to earn DMND"
       }
     },
     {
       "data": {
         "stringId": 322,
-        "text": "Stake Cuban, get SYRUP."
+        "text": "Stake Dmnd, get SYRUP."
       }
     },
     {
@@ -153,7 +153,7 @@
     {
       "data": {
         "stringId": 334,
-        "text": "Every time you stake and unstake CUBAN tokens, the contract will automatically harvest CUBAN rewards for you!"
+        "text": "Every time you stake and unstake DMND tokens, the contract will automatically harvest DMND rewards for you!"
       }
     },
     {
@@ -219,7 +219,7 @@
     {
       "data": {
         "stringId": 358,
-        "text": "Cuban price"
+        "text": "Dmnd price"
       }
     },
     {
@@ -243,7 +243,7 @@
     {
       "data": {
         "stringId": 380,
-        "text": "1 CUBAN = 1 SYRUP"
+        "text": "1 DMND = 1 SYRUP"
       }
     },
     {
@@ -291,7 +291,7 @@
     {
       "data": {
         "stringId": 400,
-        "text": "SYRUP holders proportionally split 25% of CUBAN block emissions each day (10 CUBAN per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 25% of DMND block emissions each day (10 DMND per block), Rewards are distributed each block."
       }
     },
     {
@@ -351,13 +351,13 @@
     {
       "data": {
         "stringId": 424,
-        "text": "%num% CUBAN"
+        "text": "%num% DMND"
       }
     },
     {
       "data": {
         "stringId": 426,
-        "text": "Spend CUBAN to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
+        "text": "Spend DMND to buy tickets, contributing to the lottery pot. Ticket purchases end approx. 30 minutes before lottery. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their positions! Good luck!"
       }
     },
     {
@@ -435,19 +435,19 @@
     {
       "data": {
         "stringId": 454,
-        "text": "%num% CUBAN Available"
+        "text": "%num% DMND Available"
       }
     },
     {
       "data": {
         "stringId": 456,
-        "text": "Your amount must be a multiple of 10 CUBAN"
+        "text": "Your amount must be a multiple of 10 DMND"
       }
     },
     {
       "data": {
         "stringId": 458,
-        "text": "1 Ticket = 10 CUBAN"
+        "text": "1 Ticket = 10 DMND"
       }
     },
     {
@@ -495,7 +495,7 @@
     {
       "data": {
         "stringId": 478,
-        "text": "Ticket purchases are final. Your CUBAN cannot be returned to you after buying tickets."
+        "text": "Ticket purchases are final. Your DMND cannot be returned to you after buying tickets."
       }
     },
     {
@@ -507,7 +507,7 @@
     {
       "data": {
         "stringId": 482,
-        "text": "CUBAN prizes to be claimed"
+        "text": "DMND prizes to be claimed"
       }
     },
     {
@@ -543,13 +543,13 @@
     {
       "data": {
         "stringId": 494,
-        "text": "Approve CUBAN"
+        "text": "Approve DMND"
       }
     },
     {
       "data": {
         "stringId": 496,
-        "text": "SYRUP holders proportionally split 40% of CUBAN block emissions each day (10 CUBAN per block), Rewards are distributed each block."
+        "text": "SYRUP holders proportionally split 40% of DMND block emissions each day (10 DMND per block), Rewards are distributed each block."
       }
     },
     {
@@ -567,19 +567,19 @@
     {
       "data": {
         "stringId": 504,
-        "text": "You\u2019ll pay for the new tokens using SWAN-BNB LP tokens, which means you need to stake equal amounts of SWAN and BNB in a liquidity pool to take part."
+        "text": "You\u2019ll pay for the new tokens using DMND-BNB LP tokens, which means you need to stake equal amounts of DMND and BNB in a liquidity pool to take part."
       }
     },
     {
       "data": {
         "stringId": 506,
-        "text": "Get SWAN-BNB LP >"
+        "text": "Get DMND-BNB LP >"
       }
     },
     {
       "data": {
         "stringId": 508,
-        "text": "The project gets the BNB, Goose Finance burns the SWAN."
+        "text": "The project gets the BNB, Goose Finance burns the DMND."
       }
     },
     {
@@ -645,7 +645,7 @@
     {
       "data": {
         "stringId": 534,
-        "text": "Cuban Stats"
+        "text": "Dmnd Stats"
       }
     },
     {
@@ -663,7 +663,7 @@
     {
       "data": {
         "stringId": 540,
-        "text": "New CUBAN\/block"
+        "text": "New DMND\/block"
       }
     },
     {
@@ -675,19 +675,19 @@
     {
       "data": {
         "stringId": 544,
-        "text": "CUBAN to Harvest"
+        "text": "DMND to Harvest"
       }
     },
     {
       "data": {
         "stringId": 546,
-        "text": "CUBAN in Wallet"
+        "text": "DMND in Wallet"
       }
     },
     {
       "data": {
         "stringId": 548,
-        "text": "Collecting CUBAN"
+        "text": "Collecting DMND"
       }
     },
     {
@@ -699,7 +699,7 @@
     {
       "data": {
         "stringId": 552,
-        "text": "CUBAN to Collect"
+        "text": "DMND to Collect"
       }
     },
     {
@@ -753,25 +753,25 @@
     {
       "data": {
         "stringId": 576,
-        "text": "PolyCuban Finance"
+        "text": "Polygon's First High Value Yield Farm"
       }
     },
     {
       "data": {
         "stringId": 578,
-        "text": "PolyCuban Finance, last generation yield farming based on polygon."
+        "text": ""
       }
     },
     {
       "data": {
         "stringId": 579,
-        "text": "Yield Farming will begin at block _"
+        "text": ""
       }
     },
     {
       "data": {
         "stringId": 580,
-        "text": "Stake CUBAN to earn new tokens."
+        "text": "Stake DIA to earn new tokens."
       }
     },
     {
@@ -789,7 +789,7 @@
     {
       "data": {
         "stringId": 586,
-        "text": "CUBAN to burn (USD)"
+        "text": "DMND to burn (USD)"
       }
     },
     {
@@ -801,7 +801,7 @@
     {
       "data": {
         "stringId": 590,
-        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest SWAN rewards for you!"
+        "text": "\u2b50\ufe0f Every time you stake and unstake LP tokens, the contract will automatically harvest DMND rewards for you!"
       }
     },
     {
@@ -819,13 +819,13 @@
     {
       "data": {
         "stringId": 596,
-        "text": "Buy SWAN and BNB tokens"
+        "text": "Buy DMND and BNB tokens"
       }
     },
     {
       "data": {
         "stringId": 598,
-        "text": "Get SWAN-BNB LP tokens by adding SWAN and BNB liquidity"
+        "text": "Get DMND-BNB LP tokens by adding DMND and BNB liquidity"
       }
     },
     {
@@ -837,7 +837,7 @@
     {
       "data": {
         "stringId": 602,
-        "text": "While the sale is live, commit your SWAN-LP tokens to buy the IFO tokens"
+        "text": "While the sale is live, commit your DMND-LP tokens to buy the IFO tokens"
       }
     },
     {
@@ -873,7 +873,7 @@
     {
       "data": {
         "stringId": 614,
-        "text": "Trade in for SWAN, or keep for your collection!"
+        "text": "Trade in for DMND, or keep for your collection!"
       }
     },
     {
@@ -915,7 +915,7 @@
     {
       "data": {
         "stringId": 628,
-        "text": "When you trade in this NFT to receive SWAN, you will lose access to it forever!"
+        "text": "When you trade in this NFT to receive DMND, you will lose access to it forever!"
       }
     },
     {
@@ -945,7 +945,7 @@
     {
       "data": {
         "stringId": 638,
-        "text": "Winners can trade in their NFTs for a SWAN value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
+        "text": "Winners can trade in their NFTs for a DMND value until the expiry date written below. If you don't trade in your NFT by then, don\u2019t worry: you\u2019ll still keep it in your wallet!"
       }
     },
     {
@@ -987,7 +987,7 @@
     {
       "data": {
         "stringId": 654,
-        "text": "Trade in for CUBAN"
+        "text": "Trade in for DMND"
       }
     },
     {
@@ -1113,7 +1113,7 @@
     {
       "data": {
         "stringId": 696,
-        "text": "Stake LP tokens to earn CUBAN"
+        "text": "Stake LP tokens to earn DMND"
       }
     },
     {
@@ -1155,13 +1155,13 @@
     {
       "data": {
         "stringId": 708,
-        "text": "The SWAN Lottery"
+        "text": "The DMND Lottery"
       }
     },
     {
       "data": {
         "stringId": 710,
-        "text": "Buy tickets with SWAN"
+        "text": "Buy tickets with DMND"
       }
     },
     {
@@ -1215,7 +1215,7 @@
     {
       "data": {
         "stringId": 10000,
-        "text": "Deposit Fee will be used to buyback CUBAN"
+        "text": "Deposit Fee will be used to buyback DMND"
       }
     },
     {
@@ -1227,7 +1227,7 @@
     {
       "data": {
         "stringId": 10002,
-        "text": "Stake tokens to earn CUBAN"
+        "text": "Stake tokens to earn DMND"
       }
     },
     {
